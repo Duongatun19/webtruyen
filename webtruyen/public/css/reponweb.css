@@ -1,0 +1,289 @@
+@media all and (min-width: 1200px) {
+    .row .dropdown-item{
+        width: auto;
+        font-size: 13px;
+        padding: 0px 10px !important;
+        font-weight: 700;
+        color: #1e235f;
+    }
+    .book {
+        display:inline-block;
+        margin: 10px
+    }
+
+    .book img {
+        vertical-align: middle;
+        border: 1px solid #000;
+        border-left: 5px solid #000;
+        height: 324px;
+        width: 221px
+    }
+
+    .img_trangtruyen .books {
+        margin: 15px auto 30px;
+        -moz-perspective: 300px;
+        -moz-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d
+    }
+
+    .img_trangtruyen .book {
+        position: relative;
+        transform: perspective(300px) rotateY(-3deg);
+        -moz-perspective: 300px;
+        -moz-transform: rotateY(-3deg);
+        -webkit-transform: perspective(300) rotateY(-3deg);
+        outline: 1px solid transparent;
+        box-shadow: 5px 5px 20px var(--box-shadow);
+        margin: 0
+    }
+
+    .img_trangtruyen .book img {
+        position: relative
+    }
+
+    .img_trangtruyen .book:before,.img_trangtruyen .book:after {
+        position: absolute;
+        top: 2%;
+        height: 96%;
+        content: ' ';
+        z-index: -1
+    }
+
+    .img_trangtruyen .book:before {
+        width: 100%;
+        left: 7.5%;
+        background-color: #000
+    }
+/** css lõi giữa */
+    .img_trangtruyen .book:after {
+        width: 5%;
+        left: 100%;
+        background-color: #EFEFEF;
+        box-shadow: inset 0px 0px 5px var(--box-shadow);
+        transform: perspective(300px) rotateY(20deg);
+        -moz-transform: rotateY(20deg);
+        -webkit-transform: perspective(300) rotateY(20deg)
+        
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .mgin{
+        margin: 10px !important;
+    }
+    body{
+        width: 100%;
+        background-color: black;
+     }
+     
+     .side-bar-right{
+         display: none;
+     }
+     #search_ajax ul{
+ 
+         width: 40%;
+     }
+    
+     .tuannn{
+         display:  none;
+     }
+     .reponsive-col9{
+         width: 100% !important;
+     }
+     .logo{
+         display: none;
+     }
+   
+ 
+}
+@media  screen and (max-width:1200px) {
+    body{
+       width: 100%;
+       background-color: black;
+    }
+    .row .dropdown-item{
+        width: auto;
+        font-size: 13px;
+        padding: 0px 10px !important;
+        font-weight: 700;
+        color: #1e235f;
+    }
+    .mgin{
+        margin-left: 100px;
+    }
+    .side-bar-right{
+        display: none;
+    }
+    #search_ajax ul{
+
+        width: 40%;
+    }
+   
+    .tuannn{
+        display:  none;
+    }
+    .reponsive-col9{
+        width: 100% !important;
+    }
+    .logo{
+        display: none;
+    }
+  
+
+}
+@media  screen and (max-width:1000px){
+    /* .repon700{
+        width: 70% !important;
+    } */
+    
+.img_trangtruyen{
+    width: 37%!important;
+   
+}
+.img_trangtruyen div:nth-child(1){
+    margin-right: 5px;
+}
+.img_trangtruyen img{
+    width: 223px !important;
+    height: 315px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+  
+ 
+
+}
+#search_ajax ul{
+
+    width: 70%;
+}
+.reponsive-col9{
+    width: 100% !important;
+}
+.repon700{
+    width: 63%!important;
+}
+.logo{
+    display: none;
+}
+}
+@media  screen and (max-width:780px){
+    body{
+        overflow-x: hidden;
+    }
+    .row .dropdown-item{
+        width: auto;
+        font-size: 13px;
+        padding: 0px 10px !important;
+        font-weight: 700;
+        color: #1e235f;
+    }
+    .img_trangtruyen{
+        width: 100% !important;
+    }
+    .dropdown-menu{
+        min-width: 100% !important;
+    }
+    #search_ajax ul{
+
+        width: 85%;
+    }
+    .reponsive-col9{
+        width: 100% !important;
+        margin-left: 13px;
+    }
+    .repon{
+        margin-left: 0px !important;
+    }
+    .repon700{
+        width: 100%!important;
+    }
+    .img_trangtruyen {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-evenly;
+      justify-items: center;
+    }
+    .logo{
+        display: none;
+    }
+    .trangtruyen button{
+        margin-top: 5px;
+    }
+    .controller{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-select{
+        width: 100% !important;
+    }
+   
+    
+}
+
+@media  screen and (max-width:760px){
+    .table-drop .col-3{
+        width: 33%;
+    }
+    .row .dropdown-item{
+        width: auto;
+        font-size: 13px;
+        padding: 0px 10px !important;
+        font-weight: 700;
+        color: #1e235f;
+    }
+}
+@media  screen and (max-width:550px){
+     .row .dropdown-item{
+        width: auto;
+        font-size: 12px;
+        padding: 0px 10px !important;
+        font-weight: 700;
+        color: #1e235f;
+    }
+    .table-drop .col-3{
+        width: 33%;
+    }
+    .table-drop .col-2{
+        width: 25%;
+    }
+}
+
+@media  screen and (max-width:456px){
+    .img_trangtruyen{
+        width: 100% !important;
+    }
+   
+    #search_ajax ul{
+
+        width: 70%;
+    }
+    .reponsive-col9{
+        width: 100% !important;
+        margin-left: 20px;
+    }
+    .repon700{
+        width: 100%!important;
+    }
+    .repon{
+        margin-left: 0px !important;
+    }
+    .img_trangtruyen {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-evenly;
+      justify-items: center;
+    }
+    .logo{
+        display: none;
+    }
+    .trangtruyen button{
+        margin-top: 5px;
+    }
+    .footer-distributed
+    {
+        width: 100%!important;
+    }
+    
+}

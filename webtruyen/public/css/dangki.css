@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(20, 33, 77, 0.842);
+}
+.bg-color{
+    background-color: rgba(30, 77, 148, 0.411);
+    color: aliceblue;
+    margin-top: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title i{
+    line-height: 40px;
+    padding-right: 10px;
+}
+.title i:hover{
+    color: aqua;
+}
+
+.input-i{
+    position: relative;
+}
+
+.input-i i{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.form-login{
+    width: 900px;
+  overflow-y: hidden;
+}
+.resize{
+    height: 450px;
+}
+.resize div{
+    padding-top: 7px;
+}
+.form-re{
+    width: 1200px;
+}
+@media screen and (max-width:1000px){
+    .form-login{
+        width: 100%;
+    }
+    .form-re{
+        width: 100%;
+    }
+    
+}
